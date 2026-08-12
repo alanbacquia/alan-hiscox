@@ -1,0 +1,36 @@
+name: Content Intro
+machineName: content-intro
+status: true
+required:
+  - heading
+  - body
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Hiscox Community Portrait Highlights
+    body:
+      title: Body
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      examples:
+        - >-
+          <p>Hiscox has a clear vision for the future. Our ambition is to be a
+          respected specialist insurer valued by our customers, business
+          partners and shareholders, with a diverse portfolio by product and
+          geography.</p>
+    ctaLabel:
+      title: CTA Label
+      type: string
+      examples:
+        - Learn more
+    ctaUrl:
+      title: CTA URL
+      type: string
+      format: uri-reference
+      examples:
+        - /about
+slots: []

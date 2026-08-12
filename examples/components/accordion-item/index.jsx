@@ -110,10 +110,6 @@ const AccordionItem = ({
   }, []);
 
   useEffect(() => {
-    setIsOpen(defaultOpen);
-  }, [defaultOpen]);
-
-  useEffect(() => {
     if (!anchorId) return;
     const checkHash = () => {
       if (window.location.hash === `#${anchorId}`) {

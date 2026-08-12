@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "source-mcp": {
+      "type": "http",
+      "url": "https://232888-6337adc4-d0a3-4fb1-b22c-c482139b46bc.cms.acquia.site/mcp"
+    },
+    "figma-remote": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}
