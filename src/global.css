@@ -14,6 +14,14 @@
   --font-sans:
     Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
     sans-serif;
+  --font-heading: 'Hiscox Sans', 'Arial Black', sans-serif;
+
+  /* Hiscox brand tokens */
+  --color-hiscox-red: #e71000;
+  --color-hiscox-red-dark: #c40e00;
+  --color-hiscox-heading: #130000;
+  --color-hiscox-body: #383232;
+  --color-hiscox-overlay: rgba(19, 0, 0, 0.4);
 
   --color-primary-100: var(--color-blue-100);
   --color-primary-200: var(--color-blue-200);

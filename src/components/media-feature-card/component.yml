@@ -1,0 +1,43 @@
+name: Media Feature Card
+machineName: media-feature-card
+status: true
+required:
+  - image
+  - title
+props:
+  properties:
+    image:
+      title: Image
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      examples:
+        - src: https://placehold.co/1200x530@2x.png
+          alt: Feature image
+          width: 1200
+          height: 530
+    title:
+      title: Title
+      type: string
+      examples:
+        - The people behind the policy: Hiscox community portrait
+    logoImage:
+      title: Logo Image
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      examples:
+        - src: https://placehold.co/61x61@2x.png
+          alt: Hiscox logo
+          width: 61
+          height: 61
+    videoUrl:
+      title: Video URL
+      type: string
+      format: uri-reference
+      examples:
+        - /videos/community-portrait
+    showPlayIcon:
+      title: Show Play Icon
+      type: boolean
+      examples:
+        - true
+slots: []

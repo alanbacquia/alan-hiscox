@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Hiscox Community Highlight",
+    "props": {
+      "heading": "Hiscox Community Portrait Highlights",
+      "body": "<p>Hiscox has a clear vision for the future. Our ambition is to be a respected specialist insurer valued by our customers, business partners and shareholders, with a diverse portfolio by product and geography.</p>",
+      "ctaLabel": "CTA button",
+      "ctaUrl": "/about"
+    }
+  },
+  {
+    "name": "No CTA",
+    "props": {
+      "heading": "About Hiscox",
+      "body": "<p>We protect the things that matter most to our clients, from their business to their home and family.</p>"
+    }
+  }
+]
