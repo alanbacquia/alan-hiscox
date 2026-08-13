@@ -1,0 +1,14 @@
+name: FAQ Accordion
+machineName: faq-accordion
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Frequently asked questions
+slots:
+  items:
+    title: FAQ Items

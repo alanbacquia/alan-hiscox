@@ -1,0 +1,10 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "heading": "Frequently asked questions"
+      }
+    }
+  ]
+}

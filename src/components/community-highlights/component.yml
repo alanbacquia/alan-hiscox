@@ -1,0 +1,46 @@
+name: Community Highlights
+machineName: community-highlights
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Real people. Real stories.
+    body:
+      title: Body
+      type: string
+      examples:
+        - <p>Thousands of businesses across the UK trust Hiscox to protect what matters most.</p>
+    ctaLabel:
+      title: CTA Label
+      type: string
+      examples:
+        - Meet our community
+    ctaUrl:
+      title: CTA URL
+      type: string
+      examples:
+        - /community
+    image:
+      title: Image
+      type: object
+      examples:
+        - src: https://placehold.co/800x600.png
+          alt: Community highlights image
+          width: 800
+          height: 600
+      $ref: json-schema-definitions://canvas.module/image
+    videoUrl:
+      title: Video URL
+      type: string
+      examples:
+        - https://www.youtube.com/watch?v=lCr9VRxMI5E
+    videoTitle:
+      title: Video Title
+      type: string
+      examples:
+        - "The people behind the policy: Hiscox community portrait"
+slots: []

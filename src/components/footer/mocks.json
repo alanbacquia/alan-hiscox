@@ -1,0 +1,11 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "menuName": "footer",
+        "copyrightText": "© 2025 Hiscox Ltd. All rights reserved."
+      }
+    }
+  ]
+}

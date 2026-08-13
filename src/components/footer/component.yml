@@ -1,0 +1,22 @@
+name: Footer
+machineName: footer
+status: true
+required: []
+props:
+  properties:
+    menuName:
+      title: Menu Name
+      type: string
+      examples:
+        - footer
+    copyrightText:
+      title: Copyright Text
+      type: string
+      examples:
+        - '© 2025 Hiscox Ltd. All rights reserved.'
+    localeLabel:
+      title: Locale Label
+      type: string
+      examples:
+        - UK
+slots: []

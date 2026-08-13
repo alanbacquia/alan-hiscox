@@ -1,0 +1,126 @@
+{
+  "title": "Homepage",
+  "path": "/hiscox-homepage",
+  "description": "Hiscox homepage — hero, features, packages, quotes, help, FAQ.",
+  "elements": {
+    "hero": {
+      "type": "js.hero",
+      "props": {
+        "sectionLabel": "Business Insurance",
+        "heading": "Water damage, inevitable. Waterworks, avoidable.",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>",
+        "ctaLabel": "Build your cover",
+        "ctaUrl": "/get-a-quote",
+        "searchPlaceholder": "Search business activity"
+      }
+    },
+    "review-banner": {
+      "type": "js.review-banner",
+      "props": {
+        "ratingScore": "4.6",
+        "reviewCountText": "2,000+ reviews"
+      }
+    },
+    "feature-icons": {
+      "type": "js.feature-icons",
+      "props": {
+        "heading": "Why choose Hiscox?"
+      },
+      "slots": {
+        "items": [
+          "feature-icon-award",
+          "feature-icon-shield",
+          "feature-icon-handshake"
+        ]
+      }
+    },
+    "feature-icon-award": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "award",
+        "title": "Award-winning cover",
+        "body": "<p>Recognised by industry experts for the quality and breadth of our business insurance products.</p>"
+      }
+    },
+    "feature-icon-shield": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "shield",
+        "title": "Tailored protection",
+        "body": "<p>Cover built around your business so you only pay for what you actually need.</p>"
+      }
+    },
+    "feature-icon-handshake": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "handshake",
+        "title": "Trusted partner",
+        "body": "<p>Over 400,000 small businesses across the UK trust Hiscox to protect what matters most.</p>"
+      }
+    },
+    "feature-banner": {
+      "type": "js.feature-banner",
+      "props": {
+        "heading": "Protecting what matters most to you and your business.",
+        "body": "<p>We've been protecting businesses and the people who run them for over 100 years. Whatever your industry, we have the expertise to help.</p>"
+      }
+    },
+    "package-cards": {
+      "type": "js.package-cards",
+      "props": {
+        "heading": "Packages designed specifically for your industry",
+        "body": "<p>Whether you're a tradesperson, tech company, or professional services firm, we have specialist cover built for your business.</p>"
+      }
+    },
+    "community-highlights": {
+      "type": "js.community-highlights",
+      "props": {
+        "heading": "Hiscox Community Portrait Highlights",
+        "body": "<p>Thousands of businesses across the UK trust Hiscox to protect what matters most. Hear their stories and discover what sets us apart.</p>",
+        "ctaLabel": "Meet our community",
+        "ctaUrl": "/community",
+        "videoUrl": "https://www.youtube.com/watch?v=lCr9VRxMI5E",
+        "videoTitle": "The people behind the policy: Hiscox community portrait"
+      }
+    },
+    "build-cover-cta": {
+      "type": "js.build-cover-cta",
+      "props": {
+        "heading": "Build your cover",
+        "body": "<p>Tell us a little about your business and we'll recommend the right cover for you. Get a quote in minutes and buy online today.</p>",
+        "searchLabel": "Tell us about your business",
+        "searchPlaceholder": "Search business activity"
+      }
+    },
+    "people-quotes": {
+      "type": "js.people-quotes",
+      "props": {
+        "heading": "Our people"
+      }
+    },
+    "help-channels": {
+      "type": "js.help-channels",
+      "props": {
+        "heading": "We're here to help"
+      }
+    },
+    "cta-section": {
+      "type": "js.cta-section",
+      "props": {
+        "heading": "Not sure what you need?",
+        "body": "<p>Our team of insurance specialists are on hand to help you find the right cover for your business. Get in touch today.</p>",
+        "primaryCtaLabel": "Build your cover",
+        "primaryCtaUrl": "/get-a-quote",
+        "secondaryCtaLabel": "Speak to an adviser",
+        "secondaryCtaUrl": "/contact"
+      }
+    },
+    "faq-accordion": {
+      "type": "js.faq-accordion",
+      "props": {
+        "heading": "Frequently asked questions"
+      }
+    }
+  },
+  "uuid": "ff7577e2-df84-46de-b51b-0e63cc564ae8"
+}

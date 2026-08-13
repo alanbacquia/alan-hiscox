@@ -1,0 +1,47 @@
+name: Header
+machineName: header
+status: true
+required: []
+props:
+  properties:
+    menuName:
+      title: Menu Name
+      type: string
+      examples:
+        - main
+    utilityMenuName:
+      title: Utility Menu Name
+      type: string
+      examples:
+        - utility
+    ctaLabel:
+      title: CTA Label
+      type: string
+      examples:
+        - Make a claim
+    ctaUrl:
+      title: CTA URL
+      type: string
+      examples:
+        - /make-a-claim
+    loginLabel:
+      title: Login Label
+      type: string
+      examples:
+        - Log in
+    loginUrl:
+      title: Login URL
+      type: string
+      examples:
+        - /login
+    localeLabel:
+      title: Locale Label
+      type: string
+      examples:
+        - UK
+    searchPlaceholder:
+      title: Search Placeholder
+      type: string
+      examples:
+        - How can we help you?
+slots: []

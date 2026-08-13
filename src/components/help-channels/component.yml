@@ -1,0 +1,14 @@
+name: Help Channels
+machineName: help-channels
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - "We're here to help"
+slots:
+  items:
+    title: Channels

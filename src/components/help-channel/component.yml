@@ -1,0 +1,37 @@
+name: Help Channel
+machineName: help-channel
+status: true
+required: []
+props:
+  properties:
+    icon:
+      title: Icon
+      type: string
+      enum:
+        - support
+        - phone
+        - email
+        - chat
+      examples:
+        - support
+    title:
+      title: Title
+      type: string
+      examples:
+        - Support
+    description:
+      title: Description
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet consectetur.</p>'
+    linkLabel:
+      title: Link Label
+      type: string
+      examples:
+        - Label
+    linkUrl:
+      title: Link URL
+      type: string
+      examples:
+        - /support
+slots: []

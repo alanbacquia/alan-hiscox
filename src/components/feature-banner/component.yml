@@ -1,0 +1,26 @@
+name: Feature Banner
+machineName: feature-banner
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Heading title max 2-3 lines
+    body:
+      title: Body
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>'
+    image:
+      title: Image
+      type: object
+      examples:
+        - src: https://placehold.co/1440x560.png
+          alt: Feature banner image
+          width: 1440
+          height: 560
+      $ref: json-schema-definitions://canvas.module/image
+slots: []

@@ -1,0 +1,13 @@
+{
+  "status": true,
+  "elements": {
+    "site-header": {
+      "type": "js.header",
+      "props": {
+        "menuName": "main",
+        "ctaLabel": "Make a claim",
+        "ctaUrl": "/make-a-claim"
+      }
+    }
+  }
+}

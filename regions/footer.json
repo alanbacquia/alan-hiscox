@@ -1,0 +1,12 @@
+{
+  "status": true,
+  "elements": {
+    "site-footer": {
+      "type": "js.footer",
+      "props": {
+        "menuName": "footer",
+        "copyrightText": "© 2025 Hiscox Ltd. All rights reserved."
+      }
+    }
+  }
+}

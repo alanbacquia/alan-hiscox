@@ -1,0 +1,14 @@
+name: People Quotes
+machineName: people-quotes
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Our people
+slots:
+  items:
+    title: Quotes

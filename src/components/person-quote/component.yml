@@ -1,0 +1,31 @@
+name: Person Quote
+machineName: person-quote
+status: true
+required: []
+props:
+  properties:
+    quote:
+      title: Quote
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>'
+    name:
+      title: Name
+      type: string
+      examples:
+        - Jane Smith
+    role:
+      title: Role
+      type: string
+      examples:
+        - Business Owner
+    image:
+      title: Image
+      type: object
+      examples:
+        - src: https://placehold.co/400x300.png
+          alt: Person photo
+          width: 400
+          height: 300
+      $ref: json-schema-definitions://canvas.module/image
+slots: []

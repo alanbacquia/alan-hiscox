@@ -1,0 +1,11 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "heading": "Packages designed specifically for your industry",
+        "body": "<p>There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration.</p>"
+      }
+    }
+  ]
+}

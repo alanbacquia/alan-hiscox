@@ -1,0 +1,10 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "heading": "We're here to help"
+      }
+    }
+  ]
+}

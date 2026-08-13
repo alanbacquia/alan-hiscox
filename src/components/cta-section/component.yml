@@ -1,0 +1,37 @@
+name: CTA Section
+machineName: cta-section
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Not sure what you need?
+    body:
+      title: Body
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+    primaryCtaLabel:
+      title: Primary CTA Label
+      type: string
+      examples:
+        - Primary action
+    primaryCtaUrl:
+      title: Primary CTA URL
+      type: string
+      examples:
+        - /get-a-quote
+    secondaryCtaLabel:
+      title: Secondary CTA Label
+      type: string
+      examples:
+        - Secondary action
+    secondaryCtaUrl:
+      title: Secondary CTA URL
+      type: string
+      examples:
+        - /contact
+slots: []

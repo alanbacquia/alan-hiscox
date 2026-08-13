@@ -1,0 +1,11 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "title": "Image card title Lorem ipsum dolor sit amet",
+        "linkUrl": "/business-insurance"
+      }
+    }
+  ]
+}

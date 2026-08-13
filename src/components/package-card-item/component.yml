@@ -1,0 +1,26 @@
+name: Package Card Item
+machineName: package-card-item
+status: true
+required: []
+props:
+  properties:
+    title:
+      title: Title
+      type: string
+      examples:
+        - Image card title Lorem ipsum dolor sit amet
+    linkUrl:
+      title: Link URL
+      type: string
+      examples:
+        - /business-insurance
+    image:
+      title: Image
+      type: object
+      examples:
+        - src: https://placehold.co/600x400.png
+          alt: Package card image
+          width: 600
+          height: 400
+      $ref: json-schema-definitions://canvas.module/image
+slots: []

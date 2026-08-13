@@ -1,0 +1,22 @@
+name: FAQ Item
+machineName: faq-item
+status: true
+required: []
+props:
+  properties:
+    question:
+      title: Question
+      type: string
+      examples:
+        - Lorem ipsum dolor sit amet?
+    answer:
+      title: Answer
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+slots: []

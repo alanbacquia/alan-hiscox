@@ -1,0 +1,17 @@
+name: Review Banner
+machineName: review-banner
+status: true
+required: []
+props:
+  properties:
+    ratingScore:
+      title: Rating score
+      type: string
+      examples:
+        - '4.6'
+    reviewCountText:
+      title: Review count text
+      type: string
+      examples:
+        - '2,000+ reviews'
+slots: []

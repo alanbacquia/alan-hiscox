@@ -1,0 +1,15 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "heading": "Not sure what you need?",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "primaryCtaLabel": "Primary action",
+        "primaryCtaUrl": "/get-a-quote",
+        "secondaryCtaLabel": "Secondary action",
+        "secondaryCtaUrl": "/contact"
+      }
+    }
+  ]
+}

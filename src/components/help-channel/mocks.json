@@ -1,0 +1,34 @@
+{
+  "mocks": [
+    {
+      "name": "Support",
+      "props": {
+        "icon": "support",
+        "title": "Support",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur.</p>",
+        "linkLabel": "Get help",
+        "linkUrl": "/support"
+      }
+    },
+    {
+      "name": "Phone",
+      "props": {
+        "icon": "phone",
+        "title": "Phone",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur.</p>",
+        "linkLabel": "Call us",
+        "linkUrl": "/contact"
+      }
+    },
+    {
+      "name": "Email",
+      "props": {
+        "icon": "email",
+        "title": "Email",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur.</p>",
+        "linkLabel": "Email us",
+        "linkUrl": "/contact"
+      }
+    }
+  ]
+}

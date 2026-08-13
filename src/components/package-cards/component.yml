@@ -1,0 +1,19 @@
+name: Package Cards
+machineName: package-cards
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Packages designed specifically for your industry
+    body:
+      title: Body
+      type: string
+      examples:
+        - '<p>There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration.</p>'
+slots:
+  items:
+    title: Cards

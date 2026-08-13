@@ -1,0 +1,15 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "sectionLabel": "Business Insurance",
+        "heading": "Water damage, inevitable. Waterworks, avoidable.",
+        "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "ctaLabel": "Build your cover",
+        "ctaUrl": "/get-a-quote",
+        "searchPlaceholder": "Search business activity"
+      }
+    }
+  ]
+}

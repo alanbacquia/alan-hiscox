@@ -19,7 +19,7 @@ props:
       title: Title
       type: string
       examples:
-        - The people behind the policy: Hiscox community portrait
+        - 'The people behind the policy: Hiscox community portrait'
     logoImage:
       title: Logo Image
       type: object

@@ -22,6 +22,9 @@
   --color-hiscox-heading: #130000;
   --color-hiscox-body: #383232;
   --color-hiscox-overlay: rgba(19, 0, 0, 0.4);
+  --color-hiscox-warm: #f2ede8;
+  --color-hiscox-divider: #dcd6d6;
+  --color-hiscox-caption: #a49b9b;
 
   --color-primary-100: var(--color-blue-100);
   --color-primary-200: var(--color-blue-200);

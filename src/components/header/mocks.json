@@ -1,0 +1,10 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "menuName": "main"
+      }
+    }
+  ]
+}

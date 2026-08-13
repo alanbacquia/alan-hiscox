@@ -1,0 +1,14 @@
+name: Feature Icons
+machineName: feature-icons
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Lorem ipsum dolor sit amet
+slots:
+  items:
+    title: Items

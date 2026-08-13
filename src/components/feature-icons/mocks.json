@@ -1,0 +1,10 @@
+{
+  "mocks": [
+    {
+      "name": "Default",
+      "props": {
+        "heading": "Lorem ipsum dolor sit amet"
+      }
+    }
+  ]
+}

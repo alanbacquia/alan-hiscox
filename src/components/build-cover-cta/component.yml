@@ -1,0 +1,27 @@
+name: Build Cover CTA
+machineName: build-cover-cta
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Build your cover
+    body:
+      title: Body
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+    searchLabel:
+      title: Search Label
+      type: string
+      examples:
+        - Tell us about your business
+    searchPlaceholder:
+      title: Search Placeholder
+      type: string
+      examples:
+        - Search business activity
+slots: []

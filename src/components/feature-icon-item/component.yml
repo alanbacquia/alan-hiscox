@@ -1,0 +1,26 @@
+name: Feature Icon Item
+machineName: feature-icon-item
+status: true
+required: []
+props:
+  properties:
+    icon:
+      title: Icon
+      type: string
+      enum:
+        - award
+        - shield
+        - handshake
+      examples:
+        - award
+    title:
+      title: Title
+      type: string
+      examples:
+        - Lorem ipsum
+    body:
+      title: Body
+      type: string
+      examples:
+        - '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+slots: []
