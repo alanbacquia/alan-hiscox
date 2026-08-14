@@ -1,0 +1,162 @@
+{
+  "name": "Business Landing Page",
+  "description": "A full landing page pattern for a business insurance product line. Includes hero, key benefits, call to action, and FAQ — ready to customise and publish.",
+  "category": "Page layouts",
+  "thumbnail": null,
+  "elements": {
+    "hero": {
+      "type": "js.hero",
+      "props": {
+        "sectionLabel": "Business Insurance",
+        "heading": "Professional insurance, built around your business.",
+        "body": "<p>Get the cover you need to protect your business. Fast, flexible, and backed by Hiscox expertise.</p>",
+        "ctaLabel": "Build your cover",
+        "ctaUrl": "/get-a-quote",
+        "searchPlaceholder": "Search business activity"
+      }
+    },
+    "feature-icons": {
+      "type": "js.feature-icons",
+      "props": {
+        "heading": "Why choose Hiscox?"
+      },
+      "slots": {
+        "items": [
+          "feature-icon-award",
+          "feature-icon-shield",
+          "feature-icon-handshake"
+        ]
+      }
+    },
+    "feature-icon-award": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "award",
+        "title": "Award-winning cover",
+        "body": "<p>Recognised by industry experts for the quality and breadth of our business insurance products.</p>"
+      }
+    },
+    "feature-icon-shield": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "shield",
+        "title": "Tailored protection",
+        "body": "<p>Cover built around your business so you only pay for what you actually need.</p>"
+      }
+    },
+    "feature-icon-handshake": {
+      "type": "js.feature-icon-item",
+      "props": {
+        "icon": "handshake",
+        "title": "Trusted partner",
+        "body": "<p>Over 400,000 small businesses across the UK trust Hiscox to protect what matters most.</p>"
+      }
+    },
+    "three-col-cards": {
+      "type": "js.three-column-cards",
+      "props": {
+        "heading": "Popular types of cover"
+      },
+      "slots": {
+        "items": [
+          "card-pi",
+          "card-gl",
+          "card-cyber"
+        ]
+      }
+    },
+    "card-pi": {
+      "type": "js.card",
+      "props": {
+        "title": "Professional Indemnity",
+        "body": "<p>Protects you if a client claims your advice or service caused them a financial loss.</p>",
+        "image": {
+          "src": "https://placehold.co/800x600.png",
+          "alt": "Professional indemnity insurance",
+          "width": 800,
+          "height": 600
+        },
+        "linkLabel": "Learn more",
+        "linkUrl": "/professional-indemnity"
+      }
+    },
+    "card-gl": {
+      "type": "js.card",
+      "props": {
+        "title": "General Liability",
+        "body": "<p>Covers claims of injury or property damage made by third parties against your business.</p>",
+        "image": {
+          "src": "https://placehold.co/800x600.png",
+          "alt": "General liability insurance",
+          "width": 800,
+          "height": 600
+        },
+        "linkLabel": "Learn more",
+        "linkUrl": "/general-liability"
+      }
+    },
+    "card-cyber": {
+      "type": "js.card",
+      "props": {
+        "title": "Cyber & Data",
+        "body": "<p>Helps your business recover quickly from a cyber attack, data breach, or ransomware event.</p>",
+        "image": {
+          "src": "https://placehold.co/800x600.png",
+          "alt": "Cyber and data insurance",
+          "width": 800,
+          "height": 600
+        },
+        "linkLabel": "Learn more",
+        "linkUrl": "/cyber-insurance"
+      }
+    },
+    "cta-section": {
+      "type": "js.cta-section",
+      "props": {
+        "heading": "Not sure what cover you need?",
+        "body": "<p>Our team can help you find the right insurance for your business. Get a tailored quote in minutes.</p>",
+        "primaryCtaLabel": "Get a quote",
+        "primaryCtaUrl": "/get-a-quote",
+        "secondaryCtaLabel": "Talk to an expert",
+        "secondaryCtaUrl": "/contact"
+      }
+    },
+    "faq-section": {
+      "type": "js.faq-accordion",
+      "props": {
+        "heading": "Common questions"
+      },
+      "slots": {
+        "items": [
+          "faq-item-1",
+          "faq-item-2",
+          "faq-item-3"
+        ]
+      }
+    },
+    "faq-item-1": {
+      "type": "js.faq-item",
+      "props": {
+        "question": "How much does business insurance cost?",
+        "answer": "<p>The cost depends on the type of cover, your industry, and the size of your business. Most Hiscox policies start from a few hundred pounds a year. Use our quote tool to get an accurate price for your specific needs.</p>",
+        "openByDefault": true
+      }
+    },
+    "faq-item-2": {
+      "type": "js.faq-item",
+      "props": {
+        "question": "What does professional indemnity insurance cover?",
+        "answer": "<p>Professional indemnity insurance covers legal costs and compensation if a client claims your professional advice, design, or service caused them a financial loss — even if you didn't make a mistake.</p>",
+        "openByDefault": false
+      }
+    },
+    "faq-item-3": {
+      "type": "js.faq-item",
+      "props": {
+        "question": "Can I adjust my cover after purchasing?",
+        "answer": "<p>Yes. You can update your policy at any time through your Hiscox account. Upgrades take effect immediately; refunds for downgraded cover are calculated pro-rata.</p>",
+        "openByDefault": false
+      }
+    }
+  }
+}
