@@ -1,0 +1,36 @@
+name: Card
+machineName: card
+status: true
+required: []
+props:
+  properties:
+    title:
+      title: Title
+      type: string
+      examples:
+        - Example card title
+    body:
+      title: Body
+      type: string
+      examples:
+        - <p>A short description of the card content goes here.</p>
+    image:
+      title: Image
+      type: object
+      examples:
+        - src: https://placehold.co/800x600.png
+          alt: Card image
+          width: 800
+          height: 600
+      $ref: json-schema-definitions://canvas.module/image
+    linkUrl:
+      title: Link URL
+      type: string
+      examples:
+        - /learn-more
+    linkLabel:
+      title: Link Label
+      type: string
+      examples:
+        - Learn more
+slots: {}

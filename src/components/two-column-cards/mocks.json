@@ -1,0 +1,71 @@
+{
+  "mocks": [
+    {
+      "name": "With cards",
+      "props": {
+        "heading": "Featured content"
+      },
+      "slots": {
+        "items": ["card-one", "card-two"]
+      },
+      "elements": {
+        "card-one": {
+          "type": "card",
+          "props": {
+            "title": "First card title",
+            "body": "<p>A short description of the first card. Keep it concise and relevant to the topic.</p>",
+            "image": {
+              "src": "https://placehold.co/800x600.png",
+              "alt": "Card image",
+              "width": 800,
+              "height": 600
+            },
+            "linkLabel": "Learn more",
+            "linkUrl": "/card-one"
+          }
+        },
+        "card-two": {
+          "type": "card",
+          "props": {
+            "title": "Second card title",
+            "body": "<p>A short description of the second card. Keep it concise and relevant to the topic.</p>",
+            "image": {
+              "src": "https://placehold.co/800x600.png",
+              "alt": "Card image",
+              "width": 800,
+              "height": 600
+            },
+            "linkLabel": "Learn more",
+            "linkUrl": "/card-two"
+          }
+        }
+      }
+    },
+    {
+      "name": "No heading",
+      "slots": {
+        "items": ["card-a", "card-b"]
+      },
+      "elements": {
+        "card-a": {
+          "type": "card",
+          "props": {
+            "title": "First card",
+            "body": "<p>Card content without a section heading above the grid.</p>",
+            "linkLabel": "Read more",
+            "linkUrl": "/card-a"
+          }
+        },
+        "card-b": {
+          "type": "card",
+          "props": {
+            "title": "Second card",
+            "body": "<p>Card content without a section heading above the grid.</p>",
+            "linkLabel": "Read more",
+            "linkUrl": "/card-b"
+          }
+        }
+      }
+    }
+  ]
+}

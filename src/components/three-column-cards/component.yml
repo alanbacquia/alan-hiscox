@@ -1,0 +1,14 @@
+name: Three Column Cards
+machineName: three-column-cards
+status: true
+required: []
+props:
+  properties:
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Featured content
+slots:
+  items:
+    title: Items

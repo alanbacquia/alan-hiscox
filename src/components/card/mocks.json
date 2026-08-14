@@ -1,0 +1,26 @@
+{
+  "mocks": [
+    {
+      "name": "No image",
+      "props": {
+        "title": "Card without image",
+        "body": "<p>This card variant shows text-only content with no image at the top.</p>",
+        "linkLabel": "Find out more",
+        "linkUrl": "/learn-more"
+      }
+    },
+    {
+      "name": "No link",
+      "props": {
+        "title": "Card without link",
+        "body": "<p>This card variant shows title and body copy only, with no call-to-action link.</p>",
+        "image": {
+          "src": "https://placehold.co/800x600.png",
+          "alt": "Card image",
+          "width": 800,
+          "height": 600
+        }
+      }
+    }
+  ]
+}
